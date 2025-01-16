@@ -6,3 +6,13 @@ body {
   color: navy;
   margin: 20%;
 }
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.child {
+  flex-direction: row;
+  padding-bottom: 1em;
+}
